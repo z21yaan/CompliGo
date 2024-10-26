@@ -60,15 +60,15 @@ pip install Flask
 For Software: Compligo is a web app providing real-time compliments based on live face detection. Built with HTML, CSS, and JavaScript for the frontend, it uses Flask as the backend to serve templates. The app incorporates tracking.js for face detection and jQuery for DOM interactions. Users enable the camera to receive compliments when a face is detected.
 
 # Screenshots (Add at least 3)
-![image](https://github.com/user-attachments/assets/efeab3d9-77e7-4add-b051-cfedccca14d7)
+![image](https://github.com/user-attachments/assets/909ccb49-952e-49d8-adf2-b38cb1ea430a)
  VScode
 this is just a glimpse of our code
 
-![image](https://github.com/user-attachments/assets/d33f611d-7d25-419b-8252-e86ba4314705)
+![image](https://github.com/user-attachments/assets/2a8e27d9-285c-4bbf-bdad-31437c066d38)
 Front Page
 This shows the landing page upon clicking run
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/d33f611d-7d25-419b-8252-e86ba4314705)
 2nd page
 This page has the face tracker and gives you compliments
 
