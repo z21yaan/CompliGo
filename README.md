@@ -1,95 +1,89 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# CompliGo🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: A10 scn aa
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Ziyan Tharick - TKMCE
+- Member 2: Athuldev - TKMCE
+- Member 3: Mohammed Shidhath C - TKMCE
 
 ### Project Description
-[2-3 lines about what your project does]
+it is a webpage which gives you real time compliments based on ur facial expressions as it has camera access which tracks ur face. Getting good compliments can enhance ones mood which may even result in having an amazing day to day experience from using our web page.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+People get bad compliments everytime which weakens their mood.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Provide Random compliments to make up for all the bad ones thereby giving the user a sense of happiness.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+1. HTML, CSS, and JavaScript
+HTML: Used for the structure and layout of the webpage.
+CSS: Used to style the elements, including gradient animations, button effects, and general layout.
+JavaScript: Used to handle the tab switching, camera functions, and compliment display logic.
+2. Fonts
+Google Fonts (Poppins): Imported via a link to give the webpage a custom font style.
+3. JavaScript Libraries
+jQuery: Imported from a CDN, used to simplify DOM manipulation and event handling.
+Source: https://code.jquery.com/jquery-3.6.0.min.js
+tracking.js: A JavaScript library for tracking objects (in this case, faces) in the video feed.
+Source: https://cdn.rawgit.com/eduardolundgren/tracking.js/master/build/tracking-min.js
+Face Tracking Plugin: https://cdn.rawgit.com/eduardolundgren/tracking.js/master/build/data/face.min.js
+4. Browser APIs
+WebRTC (Web Real-Time Communication): The getUserMedia() API is used to access the user's camera, allowing for video capture.
+Canvas API: Used for drawing a bounding box around detected faces on the video feed.
+5. CSS Animations
+Keyframes Animation: Used to create a gradient background transition and fade-in effect for compliments.
+6. HTML5 Video and Canvas Elements
+Video Element (<video>): Displays the live video feed from the user's camera.
+Canvas Element (<canvas>): Used to overlay graphics (like face bounding boxes) on top of the video feed.
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
-For Software:
+For Software: Virtual Source Code
 # Installation
-[commands]
-
-# Run
-[commands]
+type the following into the terminal
+git clone https://github.com/your-username/Compligo.git
+cd Compligo
+python3 -m venv venv
+source venv/bin/activate  # On Windows, use venv\Scripts\activate
+pip install Flask
 
 ### Project Documentation
-For Software:
+For Software: Compligo is a web app providing real-time compliments based on live face detection. Built with HTML, CSS, and JavaScript for the frontend, it uses Flask as the backend to serve templates. The app incorporates tracking.js for face detection and jQuery for DOM interactions. Users enable the camera to receive compliments when a face is detected.
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![image](https://github.com/user-attachments/assets/909ccb49-952e-49d8-adf2-b38cb1ea430a)
+ VScode
+this is just a glimpse of our code
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![image](https://github.com/user-attachments/assets/2a8e27d9-285c-4bbf-bdad-31437c066d38)
+Front Page
+This shows the landing page upon clicking run
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![image](https://github.com/user-attachments/assets/d33f611d-7d25-419b-8252-e86ba4314705)
+2nd page
+This page has the face tracker and gives you compliments
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+No Diagrams
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+The video attached shows how the code runs and the output Webpage it gives which is CompliGo. You can see that it has a real time face tracker and also shows various compliments to brighten up your mood.
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Ziyan Tharick: Additional Ideas and Coding Work
+- Athuldev: Core Idea which we used
+- Mohammed Shidhath C: Coding Work
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
