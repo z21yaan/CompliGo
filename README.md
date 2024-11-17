@@ -77,8 +77,8 @@ No Diagrams
 
 ### Project Demo
 # Video
-The video attached shows how the code runs and the output Webpage it gives which is CompliGo. You can see that it has a real time face tracker and also shows various compliments to brighten up your mood.
-
+[The video attached shows how the code runs and the output Webpage it gives which is CompliGo. You can see that it has a real time face tracker and also shows various compliments to brighten up your mood.
+](https://drive.google.com/file/d/1EUQgqVpiCv07dgKLfNs4U1fUyHIgI36a/view?usp=drive_link)
 
 ## Team Contributions
 - Ziyan Tharick: Additional Ideas and Coding Work
